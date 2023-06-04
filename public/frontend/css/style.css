@@ -1,0 +1,148 @@
+:root {
+  --first-color: #212939;
+  --second-color: #ffffff;
+  --third-color: #ca1c99;
+  --section-color: #29354b;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  min-height: 900px;
+  background-color: var(--first-color);
+}
+
+section h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Button Start */
+.button-custom {
+  background-color: var(--third-color);
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  min-height: 50px;
+  min-width: 150px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.button_social {
+  margin-top: 100px;
+  color: var(--second-color);
+}
+
+.button-social-footer {
+  margin-top: 10px;
+  color: var(--second-color);
+}
+
+.cv {
+  color: var(--second-color);
+}
+/* Button End */
+/* Navbar Start */
+.navbar-brand {
+  color: var(--third-color);
+  font-weight: 800;
+}
+
+.nav-link.active {
+  color: var(--third-color) !important;
+  font-weight: 600;
+}
+/* Navbar Start */
+
+/* Hero Start */
+.color-acsent {
+  color: var(--third-color);
+  font-weight: 400;
+}
+
+#hero {
+  color: var(--second-color);
+  min-height: 90vh;
+}
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+#hero h2 {
+  margin-top: 100px;
+  font-weight: 300;
+}
+
+#hero p {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+/* Hero End */
+
+/* About Start */
+hr {
+  width: 20rem;
+  height: 5px;
+  color: var(--third-color);
+  margin: 0 auto;
+  opacity: 100%;
+}
+
+#about {
+  min-height: 300px;
+  width: 100%;
+  background-color: var(--section-color);
+  color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+/* About End */
+
+/* Project Start */
+
+#project {
+  min-height: 300px;
+  width: 100%;
+  color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 30px;
+}
+
+#project .card {
+  background-color: var(--section-color);
+  height: 350px;
+}
+/* Project End */
+
+/* Footer Start */
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: var(--section-color);
+  color: #ffffff;
+}
+
+footer img {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(
+    180deg,
+    var(--third-color) 90% var(--second-color)
+  );
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
+}
+/* Footer End */
